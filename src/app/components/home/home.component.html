@@ -1,0 +1,23 @@
+<video title="Advertisement" id="introVideo"
+       [autoplay]="true"
+       [loop]="true"
+       [muted]="true">
+  <source src="{{introVideoSource}}" type="video/mp4">
+</video>
+<app-header></app-header>
+<div class="content jumbotron d-flex align-items-center">
+  <div class="container text-center">
+      <span class="font-weight-bold" id="videoText" class="align-middle"> I am <span
+        id="typewriterDisplay"> {{typewriter_display}} </span> </span>
+  </div>
+  <div class="container text-center">
+    <img
+      width="50%"
+      height="50%"
+      alt="Pranshu's Bitmoji"
+      src="./assets/images/NamasteMemoji.PNG"
+    />
+  </div>
+</div>
+
+
